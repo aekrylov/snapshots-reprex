@@ -28,11 +28,8 @@
         <version>1.13.0</version>
         <configuration>
           <!-- optional configuration -->
-          <useSnapshotInRelease>true</useSnapshotInRelease>
-          <useSnapshotInHotfix>true</useSnapshotInHotfix>
-          <versionDigitToIncrement>2</versionDigitToIncrement>
           <pushRemote>false</pushRemote>
-          <fetchRemote>true</fetchRemote>
+          <fetchRemote>false</fetchRemote>
           <allowSnapshots>false</allowSnapshots>
         </configuration>
       </plugin>
